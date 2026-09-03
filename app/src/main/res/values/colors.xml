@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ucycle_green">#3E9D68</color>
+    <color name="ucycle_green_dark">#2E7D5A</color>
+    <color name="ucycle_green_light">#DFF0E5</color>
+    <color name="ucycle_bg">#F6F9F7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#2B2B2B</color>
+    <color name="text_secondary">#6B6B6B</color>
+    <color name="chip_border">#D5D5D5</color>
+    <color name="amber">#E0A020</color>
+    <color name="amber_light">#FDF0D0</color>
+    <color name="danger">#BA3C3C</color>
+    <color name="danger_light">#FADCDC</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+</resources>

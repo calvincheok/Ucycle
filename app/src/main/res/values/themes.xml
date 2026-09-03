@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Ucycle" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/ucycle_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/ucycle_green_light</item>
+        <item name="colorOnPrimaryContainer">@color/ucycle_green_dark</item>
+        <item name="android:colorBackground">@color/ucycle_bg</item>
+        <item name="colorError">@color/danger</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/ucycle_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <!-- Makes an ImageView render as a circle (used for profile pictures). -->
+    <style name="CircleAvatar">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

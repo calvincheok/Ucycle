@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/item_message_sent.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/item_message_sent.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/activity_create_listing.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_create_listing.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/fragment_chat_list.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/fragment_chat_list.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/fragment_profile.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/item_chat_thread.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/item_chat_thread.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/item_message_received.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/item_message_received.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/activity_main.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/fragment_borrowing.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/fragment_borrowing.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/item_borrow.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/item_borrow.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/activity_chat.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/activity_item_detail.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_item_detail.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/fragment_home.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/item_my_listing.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/item_my_listing.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/activity_sign_up.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/activity_login.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeReleaseResources-41:/layout/item_listing.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/item_listing.xml"
+    }
+]

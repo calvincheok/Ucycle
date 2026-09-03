@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\item_rating.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\item_rating.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\activity_request_offers.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_request_offers.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeDebugResources-40:/layout/activity_rate.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_rate.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeDebugResources-40:/layout/activity_edit_listing.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_edit_listing.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\item_message_received.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\item_message_received.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\fragment_chat_list.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\fragment_chat_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\item_message_sent.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\item_message_sent.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\activity_edit_listing.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_edit_listing.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\item_transaction.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\item_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\item_listing.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\item_listing.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\activity_edit_profile.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\item_chat_thread.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\item_chat_thread.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\activity_item_detail.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_item_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\item_offer.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\item_offer.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\activity_rate.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_rate.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\activity_create_listing.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_create_listing.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\activity_transaction_detail.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_transaction_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\activity_user_profile.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_user_profile.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-mergeDebugResources-40:/layout/activity_create_listing.xml",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_create_listing.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\item_borrow.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\item_borrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\item_my_listing.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\item_my_listing.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\activity_chat.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\fragment_borrowing.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\fragment_borrowing.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-mergeDebugResources-40:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\fragment_profile.xml"
+    }
+]

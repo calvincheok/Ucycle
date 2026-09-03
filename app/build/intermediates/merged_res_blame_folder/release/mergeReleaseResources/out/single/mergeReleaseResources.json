@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_item_message_received.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/item_message_received.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_item_listing.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/item_listing.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_activity_item_detail.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_item_detail.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/drawable_bg_bubble_received.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/drawable/bg_bubble_received.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_fragment_chat_list.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/fragment_chat_list.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_activity_chat.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_activity_login.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/drawable_bg_impact.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/drawable/bg_impact.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_item_borrow.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/item_borrow.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/drawable_bg_avatar.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/drawable/bg_avatar.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_item_chat_thread.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/item_chat_thread.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_activity_sign_up.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_fragment_profile.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_activity_create_listing.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_create_listing.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/menu_bottom_nav.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/menu/bottom_nav.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_fragment_home.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_activity_main.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_fragment_borrowing.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/fragment_borrowing.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_item_my_listing.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/item_my_listing.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/drawable_bg_bubble_sent.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/drawable/bg_bubble_sent.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/drawable_bg_status_chip.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/drawable/bg_status_chip.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/layout_item_message_sent.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/item_message_sent.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/drawable_bg_upload.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/drawable/bg_upload.xml"
+    },
+    {
+        "merged": "com.utar.ucycle.app-release-42:/drawable_bg_chip.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/drawable/bg_chip.xml"
+    }
+]

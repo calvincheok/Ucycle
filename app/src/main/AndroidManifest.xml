@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".UcycleApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="Ucycle"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ucycle">
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SignUpActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ItemDetailActivity" />
+        <activity android:name=".CreateListingActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".EditListingActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".EditProfileActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".ChatActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".TransactionDetailActivity" />
+        <activity android:name=".RateActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".RequestOffersActivity" />
+        <activity android:name=".UserProfileActivity" />
+
+        <service
+            android:name=".UcycleMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

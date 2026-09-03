@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ucycle</string>
+    <string name="tagline">Giving unused items a new cycle of life</string>
+
+    <!-- Categories offered in the post form. "Others" must stay last: picking it
+         reveals a free text field so people can name their own. -->
+    <string-array name="categories">
+        <item>Books &amp; Notes</item>
+        <item>Electronics</item>
+        <item>Stationery</item>
+        <item>Lab Equipment</item>
+        <item>Clothing</item>
+        <item>Sports &amp; Outdoor</item>
+        <item>Furniture</item>
+        <item>Kitchen &amp; Appliances</item>
+        <item>Bags &amp; Accessories</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="category_others">Others</string>
+</resources>

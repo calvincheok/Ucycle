@@ -1,0 +1,4 @@
+#Mon Aug 31 16:11:02 MYT 2026
+base.0=D\:\\calvin\\download\\Ucycle_Java_App\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

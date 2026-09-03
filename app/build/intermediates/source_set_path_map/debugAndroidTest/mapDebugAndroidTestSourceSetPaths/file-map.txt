@@ -1,0 +1,4 @@
+com.utar.ucycle.test.app-androidTest-0 D:\calvin\download\Ucycle_Java_App\app\build\generated\res\resValues\androidTest\debug
+com.utar.ucycle.test.app-mergeDebugAndroidTestResources-1 D:\calvin\download\Ucycle_Java_App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.utar.ucycle.test.app-mergeDebugAndroidTestResources-2 D:\calvin\download\Ucycle_Java_App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.utar.ucycle.test.app-debugAndroidTest-3 D:\calvin\download\Ucycle_Java_App\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

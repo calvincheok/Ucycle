@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="amber">#E0A020</color>
+    <color name="amber_light">#FDF0D0</color>
+    <color name="chip_border">#D5D5D5</color>
+    <color name="danger">#BA3C3C</color>
+    <color name="danger_light">#FADCDC</color>
+    <color name="text_primary">#2B2B2B</color>
+    <color name="text_secondary">#6B6B6B</color>
+    <color name="ucycle_bg">#F6F9F7</color>
+    <color name="ucycle_green">#3E9D68</color>
+    <color name="ucycle_green_dark">#2E7D5A</color>
+    <color name="ucycle_green_light">#DFF0E5</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Ucycle</string>
+    <string name="gcm_defaultSenderId" translatable="false">721290683097</string>
+    <string name="google_api_key" translatable="false">AIzaSyAshcS8zQidjxiT4fgFyaUieDPqoB91TB4</string>
+    <string name="google_app_id" translatable="false">1:721290683097:android:49ed02bb12b281308754c8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAshcS8zQidjxiT4fgFyaUieDPqoB91TB4</string>
+    <string name="google_storage_bucket" translatable="false">ucycle-36e78.firebasestorage.app</string>
+    <string name="project_id" translatable="false">ucycle-36e78</string>
+    <string name="tagline">Giving unused items a new cycle of life</string>
+    <style name="Theme.Ucycle" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/ucycle_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/ucycle_green_light</item>
+        <item name="colorOnPrimaryContainer">@color/ucycle_green_dark</item>
+        <item name="android:colorBackground">@color/ucycle_bg</item>
+        <item name="colorError">@color/danger</item>
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/ucycle_bg</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">true</item>
+    </style>
+</resources>

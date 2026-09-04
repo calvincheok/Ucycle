@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -19,8 +18,8 @@ import com.utar.ucycle.EditListingActivity;
 import com.utar.ucycle.EditProfileActivity;
 import com.utar.ucycle.ImageUtils;
 import com.utar.ucycle.LoginActivity;
-import com.utar.ucycle.adapter.MyListingAdapter;
 import com.utar.ucycle.databinding.FragmentProfileBinding;
+import com.utar.ucycle.databinding.ItemMyListingBinding;
 import com.utar.ucycle.model.BorrowRecord;
 import com.utar.ucycle.model.Listing;
 import com.utar.ucycle.model.UserProfile;
@@ -32,7 +31,6 @@ import java.util.Locale;
 public class ProfileFragment extends Fragment {
 
     private FragmentProfileBinding binding;
-    private MyListingAdapter adapter;
 
     @Nullable
     @Override
@@ -47,16 +45,6 @@ public class ProfileFragment extends Fragment {
         FirebaseUser me = FirebaseAuth.getInstance().getCurrentUser();
         if (me == null) return;
         FirebaseFirestore db = FirebaseFirestore.getInstance();
-
-        // Tapping one of my own listings opens the edit page (modify / delete).
-        adapter = new MyListingAdapter(listing -> {
-            Intent intent = new Intent(requireContext(), EditListingActivity.class);
-            intent.putExtra(EditListingActivity.EXTRA_LISTING_ID, listing.getId());
-            startActivity(intent);
-        });
-        binding.recyclerMyListings.setLayoutManager(new LinearLayoutManager(requireContext()));
-        binding.recyclerMyListings.setAdapter(adapter);
-        binding.recyclerMyListings.setNestedScrollingEnabled(false);
 
         loadProfile();
 
@@ -128,9 +116,34 @@ public class ProfileFragment extends Fragment {
                         listing.setId(doc.getId());
                         listings.add(listing);
                     }
-                    adapter.submit(listings);
+                    showListings(listings);
                     binding.tvListingCount.setText(String.valueOf(listings.size()));
                 });
+    }
+
+    /**
+     * Adds one row per listing straight into the container. Every listing is
+     * rendered, however many there are, and tapping one opens the edit screen.
+     */
+    private void showListings(List<Listing> listings) {
+        if (binding == null) return;
+
+        binding.listingsContainer.removeAllViews();
+        binding.tvNoListings.setVisibility(listings.isEmpty() ? View.VISIBLE : View.GONE);
+
+        LayoutInflater inflater = LayoutInflater.from(requireContext());
+        for (Listing listing : listings) {
+            ItemMyListingBinding row =
+                    ItemMyListingBinding.inflate(inflater, binding.listingsContainer, false);
+            row.tvTitle.setText(listing.getTitle());
+            row.tvMeta.setText(listing.getTypeLabel() + " - " + listing.getStatus());
+            row.getRoot().setOnClickListener(v -> {
+                Intent intent = new Intent(requireContext(), EditListingActivity.class);
+                intent.putExtra(EditListingActivity.EXTRA_LISTING_ID, listing.getId());
+                startActivity(intent);
+            });
+            binding.listingsContainer.addView(row.getRoot());
+        }
     }
 
     /**

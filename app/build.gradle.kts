@@ -14,8 +14,8 @@ android {
 
         // Bump versionCode every time you send a new APK to the group,
         // otherwise Android refuses to install it over the old one.
-        versionCode = 12
-        versionName = "2.1"
+        versionCode = 13
+        versionName = "2.2"
     }
 
     buildTypes {

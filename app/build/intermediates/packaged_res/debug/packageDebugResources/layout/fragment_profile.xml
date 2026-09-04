@@ -171,11 +171,26 @@
             android:textStyle="bold"
             android:textColor="@color/text_primary" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerMyListings"
+        <!-- Built in code rather than a RecyclerView: a RecyclerView set to
+             wrap_content inside a ScrollView measures unreliably and was
+             cutting the list off after four rows. -->
+        <LinearLayout
+            android:id="@+id/listingsContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvNoListings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="You have not posted anything yet."
+            android:textSize="13sp"
+            android:textColor="@color/text_secondary"
+            android:visibility="gone" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnLogout"

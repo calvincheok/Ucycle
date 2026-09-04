@@ -60,12 +60,12 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\fragment_borrowing.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-debug-41:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_login.xml"
-    },
-    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-debug-41:\\menu_bottom_nav.xml.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\menu\\bottom_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-debug-41:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_login.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-debug-41:\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -128,6 +128,10 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\drawable\\bg_upload.xml"
     },
     {
+        "merged": "com.utar.ucycle.app-debug-41:/layout_fragment_profile.xml.flat",
+        "source": "com.utar.ucycle.app-main-43:/layout/fragment_profile.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-debug-41:\\layout_item_transaction.xml.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\item_transaction.xml"
     },
@@ -142,10 +146,6 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-debug-41:\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "com.utar.ucycle.app-debug-41:/layout_activity_rate.xml.flat",
-        "source": "com.utar.ucycle.app-main-43:/layout/activity_rate.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-debug-41:\\drawable_bg_avatar.xml.flat",
@@ -164,10 +164,6 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_rate.xml"
     },
     {
-        "merged": "com.utar.ucycle.app-debug-41:/layout_activity_create_listing.xml.flat",
-        "source": "com.utar.ucycle.app-main-43:/layout/activity_create_listing.xml"
-    },
-    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-debug-41:\\layout_item_offer.xml.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\item_offer.xml"
     },
@@ -178,10 +174,6 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-debug-41:\\layout_activity_user_profile.xml.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-main-43:\\layout\\activity_user_profile.xml"
-    },
-    {
-        "merged": "com.utar.ucycle.app-debug-41:/layout_activity_edit_listing.xml.flat",
-        "source": "com.utar.ucycle.app-main-43:/layout/activity_edit_listing.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.11.1\\com.utar.ucycle.app-debug-41:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",

@@ -4,11 +4,11 @@ package com.utar.ucycle.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.button.MaterialButton;
@@ -32,7 +32,7 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final ShapeableImageView ivAvatar;
 
   @NonNull
-  public final RecyclerView recyclerMyListings;
+  public final LinearLayout listingsContainer;
 
   @NonNull
   public final TextView tvAvatar;
@@ -59,19 +59,23 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final TextView tvName;
 
   @NonNull
+  public final TextView tvNoListings;
+
+  @NonNull
   public final TextView tvRating;
 
   private FragmentProfileBinding(@NonNull ScrollView rootView,
       @NonNull MaterialButton btnEditProfile, @NonNull MaterialButton btnLogout,
-      @NonNull ShapeableImageView ivAvatar, @NonNull RecyclerView recyclerMyListings,
+      @NonNull ShapeableImageView ivAvatar, @NonNull LinearLayout listingsContainer,
       @NonNull TextView tvAvatar, @NonNull TextView tvBio, @NonNull TextView tvCompleted,
       @NonNull TextView tvContact, @NonNull TextView tvFaculty, @NonNull TextView tvImpact,
-      @NonNull TextView tvListingCount, @NonNull TextView tvName, @NonNull TextView tvRating) {
+      @NonNull TextView tvListingCount, @NonNull TextView tvName, @NonNull TextView tvNoListings,
+      @NonNull TextView tvRating) {
     this.rootView = rootView;
     this.btnEditProfile = btnEditProfile;
     this.btnLogout = btnLogout;
     this.ivAvatar = ivAvatar;
-    this.recyclerMyListings = recyclerMyListings;
+    this.listingsContainer = listingsContainer;
     this.tvAvatar = tvAvatar;
     this.tvBio = tvBio;
     this.tvCompleted = tvCompleted;
@@ -80,6 +84,7 @@ public final class FragmentProfileBinding implements ViewBinding {
     this.tvImpact = tvImpact;
     this.tvListingCount = tvListingCount;
     this.tvName = tvName;
+    this.tvNoListings = tvNoListings;
     this.tvRating = tvRating;
   }
 
@@ -128,9 +133,9 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.recyclerMyListings;
-      RecyclerView recyclerMyListings = ViewBindings.findChildViewById(rootView, id);
-      if (recyclerMyListings == null) {
+      id = R.id.listingsContainer;
+      LinearLayout listingsContainer = ViewBindings.findChildViewById(rootView, id);
+      if (listingsContainer == null) {
         break missingId;
       }
 
@@ -182,6 +187,12 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvNoListings;
+      TextView tvNoListings = ViewBindings.findChildViewById(rootView, id);
+      if (tvNoListings == null) {
+        break missingId;
+      }
+
       id = R.id.tvRating;
       TextView tvRating = ViewBindings.findChildViewById(rootView, id);
       if (tvRating == null) {
@@ -189,8 +200,8 @@ public final class FragmentProfileBinding implements ViewBinding {
       }
 
       return new FragmentProfileBinding((ScrollView) rootView, btnEditProfile, btnLogout, ivAvatar,
-          recyclerMyListings, tvAvatar, tvBio, tvCompleted, tvContact, tvFaculty, tvImpact,
-          tvListingCount, tvName, tvRating);
+          listingsContainer, tvAvatar, tvBio, tvCompleted, tvContact, tvFaculty, tvImpact,
+          tvListingCount, tvName, tvNoListings, tvRating);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

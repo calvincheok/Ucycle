@@ -81,6 +81,7 @@ id fragmentContainer
 id ivAvatar
 id ivPhoto
 id layoutApproveReject
+id listingsContainer
 id nav_borrowing
 id nav_chat
 id nav_home
@@ -93,7 +94,6 @@ id recyclerBorrows
 id recyclerChats
 id recyclerListings
 id recyclerMessages
-id recyclerMyListings
 id recyclerOffers
 id recyclerRatings
 id sliderCondition
@@ -138,6 +138,7 @@ id tvLockNote
 id tvMessage
 id tvMeta
 id tvName
+id tvNoListings
 id tvNoRatings
 id tvNote
 id tvOfferHint
